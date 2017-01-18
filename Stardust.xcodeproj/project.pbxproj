@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		164D2DAA1E2EC5F300F634C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D2DA91E2EC5F300F634C6 /* AppDelegate.swift */; };
-		164D2DAC1E2EC5F300F634C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D2DAB1E2EC5F300F634C6 /* ViewController.swift */; };
+		164D2DAC1E2EC5F300F634C6 /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D2DAB1E2EC5F300F634C6 /* ToastViewController.swift */; };
 		164D2DAF1E2EC5F300F634C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164D2DAD1E2EC5F300F634C6 /* Main.storyboard */; };
 		164D2DB11E2EC5F300F634C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164D2DB01E2EC5F300F634C6 /* Assets.xcassets */; };
 		164D2DB41E2EC5F300F634C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164D2DB21E2EC5F300F634C6 /* LaunchScreen.storyboard */; };
+		164D2DDA1E2ECDBA00F634C6 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D2DD91E2ECDBA00F634C6 /* ModalViewController.swift */; };
+		164D2DDC1E2ECEE400F634C6 /* ActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D2DDB1E2ECEE400F634C6 /* ActionSheetViewController.swift */; };
+		164D2DDE1E2EDF8100F634C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D2DDD1E2EDF8100F634C6 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		164D2DA61E2EC5F300F634C6 /* Stardust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stardust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		164D2DA91E2EC5F300F634C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		164D2DAB1E2EC5F300F634C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		164D2DAB1E2EC5F300F634C6 /* ToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
 		164D2DAE1E2EC5F300F634C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		164D2DB01E2EC5F300F634C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164D2DB31E2EC5F300F634C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		164D2DB51E2EC5F300F634C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164D2DD91E2ECDBA00F634C6 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		164D2DDB1E2ECEE400F634C6 /* ActionSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetViewController.swift; sourceTree = "<group>"; };
+		164D2DDD1E2EDF8100F634C6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				164D2DA91E2EC5F300F634C6 /* AppDelegate.swift */,
-				164D2DAB1E2EC5F300F634C6 /* ViewController.swift */,
+				164D2DAB1E2EC5F300F634C6 /* ToastViewController.swift */,
 				164D2DAD1E2EC5F300F634C6 /* Main.storyboard */,
 				164D2DB01E2EC5F300F634C6 /* Assets.xcassets */,
 				164D2DB21E2EC5F300F634C6 /* LaunchScreen.storyboard */,
 				164D2DB51E2EC5F300F634C6 /* Info.plist */,
+				164D2DD91E2ECDBA00F634C6 /* ModalViewController.swift */,
+				164D2DDB1E2ECEE400F634C6 /* ActionSheetViewController.swift */,
+				164D2DDD1E2EDF8100F634C6 /* MainViewController.swift */,
 			);
 			path = Stardust;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				164D2DAC1E2EC5F300F634C6 /* ViewController.swift in Sources */,
+				164D2DDC1E2ECEE400F634C6 /* ActionSheetViewController.swift in Sources */,
+				164D2DAC1E2EC5F300F634C6 /* ToastViewController.swift in Sources */,
+				164D2DDA1E2ECDBA00F634C6 /* ModalViewController.swift in Sources */,
 				164D2DAA1E2EC5F300F634C6 /* AppDelegate.swift in Sources */,
+				164D2DDE1E2EDF8100F634C6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +273,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E5PM6559RN;
 				INFOPLIST_FILE = Stardust/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Randy-Perecman.Stardust";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E5PM6559RN;
 				INFOPLIST_FILE = Stardust/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Randy-Perecman.Stardust";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +314,7 @@
 				164D2DBA1E2EC5F300F634C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
